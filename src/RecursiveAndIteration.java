@@ -26,7 +26,7 @@ public class RecursiveAndIteration {
         System.out.println("   ");
         System.out.printf("Fibonacci sequence(element at index %d) = %d \n", n, fiboSeriesIte(n));
         long end = System.currentTimeMillis();//time ends here
-        long timeElapsed= end-start;
+        long timeElapsed= end-start;//time elapsed
         System.out.printf("Time: %d ms\n", timeElapsed );
 
         //Print out recursive method
@@ -58,7 +58,7 @@ public class RecursiveAndIteration {
         return x;
     }
 
-    //Recursive method
+    //Recursive method for fibonacci
     public static long fiboSeriesRec (int  n) {
         if ((n == 1) || (n == 0)) {
             return n;
