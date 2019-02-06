@@ -31,15 +31,15 @@ public class RecursiveAndIteration {
 
         //Print out recursive method
         System.out.println("Fibonacci recursion:");
-        long startTime = System.currentTimeMillis();
-        System.out.print("Fibonacci series using recursive method upto " + n + " is ");
+        long startTime = System.currentTimeMillis();//time in milliseconds
+        System.out.print("Fibonacci series using recursive method up to " + n + " is ");
         for (int i=0;i<n;i++) {
             System.out.print(" " + fiboSeriesRec( i ));
         }
         System.out.println("   ");
         System.out.printf("Fibonacci sequence(element at index %d) = %d \n", n, fiboSeriesRec (n));
         long endTime = System.currentTimeMillis();
-        long timeElapsed2= endTime-startTime;
+        long timeElapsed2= endTime-startTime;//time elapsed
         System.out.printf("Time: %d ms\n", timeElapsed2);
     }
 
